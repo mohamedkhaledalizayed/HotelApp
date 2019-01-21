@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/splash_2"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="@drawable/login_back"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textColor="#fff"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create a new account"
+                android:textColor="#cac8c8"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@drawable/sign_in_bg"
+                >
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sign_in_border"
+                    android:padding="12dp"
+                    android:textColor="#687796"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:hint="Username or e-mail"
+                    android:textColorHint="#ccc"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/sign_in_phone"
+                    android:textSize="12sp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sign_in_border"
+                    android:padding="12dp"
+                    android:textColor="#687796"
+                    android:layout_gravity="center"
+                    android:hint="Password"
+                    android:textAlignment="center"
+                    android:textColorHint="#ccc"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/sign_in_password"
+                    android:textSize="12sp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sign_in_border"
+                    android:padding="12dp"
+                    android:textColor="#687796"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:hint="Username or e-mail"
+                    android:textColorHint="#ccc"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sign_in_border"
+                    android:padding="12dp"
+                    android:textColor="#687796"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:hint="Username or e-mail"
+                    android:textColorHint="#ccc"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sign_in_border"
+                    android:padding="12dp"
+                    android:textColor="#687796"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:hint="Username or e-mail"
+                    android:textColorHint="#ccc"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Allready have an account? Sign In Now!"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/sign_in_btn_bg"
+                android:layout_margin="20dp"
+                android:text="SIGN UP"
+                android:onClick="home"
+                android:textColor="#fff"
+                />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</ScrollView>

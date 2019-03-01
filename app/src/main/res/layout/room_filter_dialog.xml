@@ -127,7 +127,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Room"
+                android:text="Day"
                 android:textColor="#000"
                 android:textSize="15sp"
                 />
@@ -224,9 +224,11 @@
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_gravity="center"
-        android:text="GO"
+        android:text="Confirm"
+        android:id="@+id/saveData"
         android:layout_marginBottom="20dp"
         android:textColor="#fff"
+        android:padding="8dp"
         android:background="@drawable/price_background"
         />
 

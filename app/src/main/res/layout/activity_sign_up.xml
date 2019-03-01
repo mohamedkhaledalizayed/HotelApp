@@ -70,7 +70,7 @@
                     android:hint="Username or e-mail"
                     android:textColorHint="#ccc"
                     android:layout_marginTop="20dp"
-                    android:id="@+id/sign_in_phone"
+                    android:id="@+id/sign_up_user"
                     android:textSize="12sp"
                     />
 
@@ -80,24 +80,25 @@
                     android:background="@drawable/sign_in_border"
                     android:padding="12dp"
                     android:textColor="#687796"
+                    android:layout_gravity="center"
+                    android:hint="Phone Number"
+                    android:textAlignment="center"
+                    android:textColorHint="#ccc"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/sign_up_number"
+                    android:textSize="12sp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sign_in_border"
+                    android:padding="12dp"
+                    android:textColor="#687796"
+                    android:textAlignment="center"
                     android:layout_gravity="center"
                     android:hint="Password"
-                    android:textAlignment="center"
-                    android:textColorHint="#ccc"
-                    android:layout_marginTop="10dp"
-                    android:id="@+id/sign_in_password"
-                    android:textSize="12sp"
-                    />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/sign_in_border"
-                    android:padding="12dp"
-                    android:textColor="#687796"
-                    android:textAlignment="center"
-                    android:layout_gravity="center"
-                    android:hint="Username or e-mail"
+                    android:id="@+id/sign_up_password"
                     android:textColorHint="#ccc"
                     android:layout_marginTop="10dp"
                     android:textSize="12sp"
@@ -111,22 +112,9 @@
                     android:textColor="#687796"
                     android:textAlignment="center"
                     android:layout_gravity="center"
-                    android:hint="Username or e-mail"
+                    android:hint="Confirm Password"
                     android:textColorHint="#ccc"
-                    android:layout_marginTop="10dp"
-                    android:textSize="12sp"
-                    />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/sign_in_border"
-                    android:padding="12dp"
-                    android:textColor="#687796"
-                    android:textAlignment="center"
-                    android:layout_gravity="center"
-                    android:hint="Username or e-mail"
-                    android:textColorHint="#ccc"
+                    android:id="@+id/sign_up_confirm_password"
                     android:layout_marginTop="10dp"
                     android:textSize="12sp"
                     />
@@ -139,6 +127,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
                     android:textSize="12sp"
+                    android:onClick="signIn"
                     android:layout_gravity="center"
                     />
 
